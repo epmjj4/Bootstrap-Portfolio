@@ -1,19 +1,18 @@
+/* changed background color  */
 body {
     background-color: rgb(220, 231, 231);
 }
 
-nav {
+/* adjusted bottom margin for these elements */
+#button, form, nav {
     margin-bottom: 55px;
 }
-
-#button {
-    margin-bottom: 55px;
-}
-
-form {
-    margin-bottom: 55px;
-}
-
+/* set the h1 to align to center */
 h1 {
     text-align: center;
 }
+/* changed background color  */
+#contact {
+    background-color: rgb(241, 229, 203);
+}
+

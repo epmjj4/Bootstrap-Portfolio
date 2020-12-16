@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>My Portfolio</title>
 </head>
+
 <body>
-    <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- changed background by adding bg-gray class -->
+  <nav class="container navbar navbar-expand-lg navbar-dark bg-gray">
+
+    <a class="navbar-brand" href="#">Ernesto Pelaez</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme" aria-controls="expandme"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="expandme">
+      <div class="navbar-nav">
+        <a href="#" class="nav-item nav-link">Graduation Pictures</a>
+        <a href="#" class="nav-item nav-link">Check out the Worlds most Handsome Dog</a>
+        <a href="#" class="nav-item nav-link">Fitness Interests & Nutrition tips</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- added padding top & Left, margin to the top, bg-gray and text to light -->
+  <main class="container pt-5 pl-5 mt-5 bg-gray text-light">
+    
+    <header>
+      <!-- added border bottom to h1 element -->
+      <h1 class="border-bottom">Portfolio</h1>
+    </header>
+
+    <!-- added margin to top and img-fluid to all placeholder images. -->
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://via.placeholder.com/350" alt="placeholder">
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://via.placeholder.com/350" alt="placeholder">
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://via.placeholder.com/350" alt="placeholder">
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://via.placeholder.com/350" alt="placeholder">
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <img class="img-fluid" src="https://via.placeholder.com/350" alt="placeholder">
+      </div>
+
+    </div>
+  </main>
+
+  <!-- added footer with copyright info -->
+  <footer>
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    </div>
+  </footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
