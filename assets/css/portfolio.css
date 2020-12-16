@@ -14,3 +14,20 @@ footer{
     color: lightgrey;
     border-style:solid;
 }
+
+/* background color will change to dodger blue when shrunk down to 992px */
+@media screen and (max-width:992px){
+    .bg-gray{
+        background-color: dodgerblue;
+    }
+    
+}
+
+/* background color will change to violet when shrunk down to 768px */
+
+@media screen and (max-width:768px){
+    .bg-gray{
+        background-color: violet;
+    }
+    
+}

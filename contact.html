@@ -16,55 +16,58 @@
     <nav class="container">
 
         <!-- changed background to bg-info and container to container-fluid -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Ernesto Pelaez</a>
-                <!-- when webpage was collapsed, hamburger icon didn't open I had to updat the data-target listed under button and added id expandme to navbar-nav -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
-                    aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="expandme">
-                    <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link">Contact</a>
-                        <a href="#" class="nav-item nav-link">Portfolio</a>
-                        <a href="#" class="nav-item nav-link">About</a>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info container-fluid bg-purple">
+
+            <a class="navbar-brand" href="#">Ernesto Pelaez</a>
+
+            <!-- when webpage was collapsed, hamburger icon didn't open I had to update the data-target listed under button and added id expandme to navbar-nav -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#expandme"
+                aria-controls="expandme" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="expandme">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link">Contact</a>
+                    <a href="#" class="nav-item nav-link">Portfolio</a>
+                    <a href="#" class="nav-item nav-link">About</a>
                 </div>
             </div>
+
         </nav>
 
     </nav>
 
     <!-- Created contact h1, set bootstrap text to display-3 and added id contact -->
+    <!-- added text-purple class to h1 so I can target via media query -->
     <div class="container" id="contact">
-        <h1 class="display-3 text-info">Contact</h1>
+        <h1 class="display-3 text-info text-purple">Contact</h1>
 
+        <!-- added text-purple class to all h5 elements -->
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-12">
                     <form action="" method="POST" enctype="multipart/form-data" id="form_id">
                         <div class="form-group">
-                            <h5 class="text-info"><label for="inputName">Name</label></h5>
+                            <h5 class="text-info text-purple"><label for="inputName">Name</label></h5>
 
                             <input type="text" name="career[name]" class="form-control" tabindex="1"
                                 placeholder="Enter your name" pattern="[a-zA-Z. ]{1,50}" required>
                         </div>
                         <div class="form-group">
-                            <h5 class="text-info"><label for="inputEmail">Email</label></h5>
+                            <h5 class="text-info text-purple"><label for="inputEmail">Email</label></h5>
 
                             <input type="email" name="career[email]" class="form-control" tabindex="2"
                                 placeholder="Enter your email address" required>
                         </div>
                         <div class="form-group">
-                            <h5 class="text-info"><label for="inputMobile">Mobile</label></h5>
+                            <h5 class="text-info text-purple"><label for="inputMobile">Mobile</label></h5>
 
                             <input type="tel" name="career[mobile]" class="form-control" tabindex="3"
                                 placeholder="Enter your mobile number" pattern="[0-2, 3-5, 6-9]{12}" maxlength="12"
                                 required>
                         </div>
                         <div class="form-group">
-                            <h5 class="text-info"><label for="inputMessage">Message</label></h5>
+                            <h5 class="text-info text-purple"><label for="inputMessage">Message</label></h5>
 
                             <input type="text" name="career[message]" class="form-control mb-5" tabindex="4"
                                 placeholder="Write your details" required>

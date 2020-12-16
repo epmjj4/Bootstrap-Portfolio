@@ -16,3 +16,22 @@ h1 {
     background-color: rgb(241, 229, 203);
 }
 
+/* When page hits 992px breakpoint, this will change nav and text color to violet */
+@media screen and (max-width:992px){
+    .bg-purple{
+        background-color: rgb(245, 58, 183) !important;
+    }
+    .text-purple, .btn, #form_id{
+        color:violet !important;
+    }
+}
+/* When page hits 992px breakpoint, this will change nav and text color to red */
+
+@media screen and (max-width:700px){
+    .bg-purple{
+        background-color: rgb(226, 21, 38) !important;
+    }
+    .text-purple, .btn, #form_id{
+        color:rgb(226, 21, 38) !important;
+    }
+}

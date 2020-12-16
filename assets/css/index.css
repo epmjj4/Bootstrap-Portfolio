@@ -13,3 +13,21 @@ img {
     margin-right:10px;
     padding-right: 10;
 }
+
+@media screen and (max-width:992px){
+    .bg-purple, #footer{
+        background-color: violet !important;
+    }
+    #main{
+        color:violet;
+    }
+}
+
+@media screen and (max-width:700px){
+    .bg-purple, #footer{
+        background-color: rgb(226, 21, 38) !important;
+    }
+    #main{
+        color:rgb(226, 21, 38);
+    }
+}
