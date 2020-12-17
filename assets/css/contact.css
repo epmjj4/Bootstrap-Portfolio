@@ -22,7 +22,7 @@ h1 {
         background-color: rgb(245, 58, 183) !important;
     }
     .text-purple, .btn, #form_id, .btn-outline-info{
-        color:violet !important;
+        color:rgb(245, 58, 183) !important;
     }
 }
 /* When page hits 992px breakpoint, this will change nav and text color to red */
