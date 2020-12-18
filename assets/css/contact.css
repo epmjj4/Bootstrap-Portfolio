@@ -18,7 +18,7 @@ h1 {
 
 /* When page hits 992px breakpoint, this will change nav and text color to violet */
 @media screen and (max-width:992px){
-    .bg-purple, .btn-outline-red, .btn-block{
+    .bg-purple, .btn-outline-red, .btn-block, footer, .text-light{
         background-color: rgb(245, 58, 183) !important;
     }
     .text-purple, .btn, #form_id, .btn-outline-info{
@@ -28,7 +28,7 @@ h1 {
 /* When page hits 992px breakpoint, this will change nav and text color to red */
 
 @media screen and (max-width:700px){
-    .bg-purple, .btn-outline-red, .btn-block{
+    .bg-purple, .btn-outline-red, .btn-blockfooter, .text-light{
         background-color: rgb(226, 21, 38) !important;
     }
     .text-purple, .btn, #form_id, .btn-outline-info{
