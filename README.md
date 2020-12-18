@@ -10,7 +10,7 @@ https://epmjj4.github.io/Bootstrap-Portfolio/
 
 # contact-html-screenshot
 
-![alt text](assets\images\contact-screenshot.png "Contact")
+![alt text](https://raw.githubusercontent.com/epmjj4/Bootstrap-Portfolio/main/assets/images/contact-screenshot.png "Contact")
 
 For the contact.html, in the nav bar, I changed background to bg-info and container to container-fluid. Under the links,  I added link for my LinkedIn account and the other 2 links are mapped to the other files created in this project. When the webpage was collapsed, the hamburger icon didn't open and I had to update the data-target under the button and I added the id expandme to navbar-nav. I also created the header which contained h1 contact, and set the bootstrap text to display-3 and added id contact. I added text-purple class to h1 & h5 elements so I can target via media query. For the footer, I added container class, copyright info, background color was set to info, the text-light, and the margin-top set to 5. 
 
