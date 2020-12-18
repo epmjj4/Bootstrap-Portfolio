@@ -1,3 +1,5 @@
+
+
 body {
     background-color: lightgray;
 }
@@ -7,30 +9,47 @@ main {
     padding-top: 30px;
     background-color: wheat;
 }
+
 p {
-    font-size:24px;
+    font-size: 24px;
 }
+
 img {
     width: 550px;
     height: 600px;
-    margin-right:10px;
+    margin-right: 10px;
     padding-right: 10;
 }
 
-@media screen and (max-width:992px){
-    .bg-purple, #footer{
+/* Changed the color of the BT link in footer  */
+#btTag {
+    color: white;
+}
+/* added hover to BT link in footer */
+#btTag:hover {
+    color: yellow;
+}
+
+@media screen and (max-width:992px) {
+
+    .bg-purple,
+    #sticky-footer {
         background-color: violet !important;
     }
-    #main{
-        color:violet;
+
+    #main {
+        color: violet;
     }
 }
 
-@media screen and (max-width:700px){
-    .bg-purple, #footer{
+@media screen and (max-width:700px) {
+
+    .bg-purple,
+    #sticky-footer {
         background-color: rgb(226, 21, 38) !important;
     }
-    #main{
-        color:rgb(226, 21, 38);
+
+    #main {
+        color: rgb(226, 21, 38);
     }
 }

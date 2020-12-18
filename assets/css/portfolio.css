@@ -1,18 +1,30 @@
+
 body{
     background-color: gray;
+    
 }
 
 .bg-gray{
     background-color: rgb(255, 101, 30);
+    
 }
 
 img {
     padding: 30px;
 }
-footer{
+ footer{
     border-width: 20px;
     color: lightgrey;
     border-style:solid;
+ }
+
+ /* Changed the color of the BT link in footer  */
+#btTag {
+    color: white;
+}
+/* added hover to BT link in footer */
+#btTag:hover {
+    color: yellow;
 }
 
 /* background color will change to dodger blue when shrunk down to 992px */

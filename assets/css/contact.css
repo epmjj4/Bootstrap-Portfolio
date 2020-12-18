@@ -16,6 +16,15 @@ h1 {
     background-color: rgb(241, 229, 203);
 }
 
+/* Changed the color of the BT link in footer  */
+#btTag {
+    color: white;
+}
+/* added hover to BT link in footer */
+#btTag:hover {
+    color: yellow;
+}
+
 /* When page hits 992px breakpoint, this will change nav and text color to violet */
 @media screen and (max-width:992px){
     .bg-purple, .btn-outline-red, .btn-block, footer, .text-light{
